@@ -21,6 +21,16 @@ const initialFriends = [
   },
 ];
 
+// Reusable components
+function Button({ children, onClick }) {
+  return (
+    <button className="button" onClick={onClick}>
+      {children}
+    </button>
+  );
+}
+
+// App and all other components
 export default function App() {
   const [showAddFriend, setShowAddFriend] = useState(false);
 
@@ -73,14 +83,6 @@ function Friend({ friend }) {
       {friend.balance === 0 && <p>You and {friend.name} are even</p>}
       <Button>Select</Button>
     </li>
-  );
-}
-
-function Button({ children, onClick }) {
-  return (
-    <button className="button" onClick={onClick}>
-      {children}
-    </button>
   );
 }
 
