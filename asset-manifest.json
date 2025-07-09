@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bill-splitter-react/static/css/main.f38a3276.css",
+    "main.js": "/bill-splitter-react/static/js/main.7d58f110.js",
+    "index.html": "/bill-splitter-react/index.html",
+    "main.f38a3276.css.map": "/bill-splitter-react/static/css/main.f38a3276.css.map",
+    "main.7d58f110.js.map": "/bill-splitter-react/static/js/main.7d58f110.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f38a3276.css",
+    "static/js/main.7d58f110.js"
+  ]
+}
